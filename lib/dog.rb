@@ -22,7 +22,7 @@ class Dog
     @@all.each do |dog|
       names << dog.name
     end
-    print names 
+    puts names 
   end
   
   def save 
