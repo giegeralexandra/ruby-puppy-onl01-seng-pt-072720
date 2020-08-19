@@ -20,7 +20,7 @@ class Dog
   def self.print_all
     names = []
     @@all.each do |dog|
-      names << "#{dog.name}" 
+      names << dog.name
     end
     names 
   end
