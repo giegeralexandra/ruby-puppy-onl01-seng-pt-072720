@@ -20,7 +20,7 @@ class Dog
   def self.print_all
     names = []
     @@all.each do 
-      names << "#{:name}" 
+      names << "#{self.name}" 
     end
     names 
   end
